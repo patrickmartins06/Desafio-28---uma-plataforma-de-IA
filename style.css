@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+  color: #F8FAFC;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+body{
+  background-image: url('img/IMG-BG.png');
+  background-size: cover;
+}
+
+.mid-block{
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: #0F172A;
+  width: 600px;
+  margin: 10px;
+  border-radius: 20px;
+  
+
+}
+
+#bloco-1{
+  font-size: 32px;
+  line-height: 130%;
+  font-weight: bold;
+}
+.container{
+background: rgba(0.01, 0.02, 0.09, 0.8);
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 60px 60px 120px 120px;
+padding: 60px;
+border-radius: 20px;
+
+
+  
+  
+}
+
+#arrow{
+  cursor: pointer;
+}
+
+.bot-container{
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: #0F172A;
+  width: 1000px;
+  margin: 10px;
+  border-radius: 20px;
+
+}
+.bot-container input{
+  background: none;
+  border: none;
+  width: 100%;
+  color: #fff;
+  font-size: 18px;
+}
+
+.bot-container input::placeholder{
+  color: #fff;
+  font-size: 18px;
+}
+
+.bot-container button{
+  background: none;
+  border: none;
+  
+}
+
+.bot-container img{
+  width: 40px;
+  cursor: pointer;
+}
+
+#plus{
+  width: 30px;
+ 
+}
+
+hr{
+
+ border-color:#334155  ;
+ 
+  width: 95%;
+}
